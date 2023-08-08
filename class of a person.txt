@@ -1,0 +1,35 @@
+ 
+ 1.class of a person.
+
+   class Person{
+     
+      constructor(n,yob,w,h){
+          this.name=n;
+          this.yob =yob;
+          this.weight=w;
+          this.height=h;
+     }
+
+   }      
+   age(){
+       return 2023 - this.yob
+   }
+   
+   const person1=new person("Praveen",1997,63,5.11);
+   const person2=new person("Raj",1997,70,6);
+   const person3=new person("Nithin",1998,68,5.7);
+   const person4=new person("Abdul",1996,72,5.5);
+   const person5=new person("Nagoor",1997,65,5.8);
+
+   console.log(person1);
+   console.log(person1.age());
+   console.log(person2);
+   console.log(person2.age());
+   console.log(person3);
+   console.log(person3.age());
+   console.log(person4);
+   console.log(person4.age());
+   console.log(person5);
+   console.log(person5.age());
+
+
